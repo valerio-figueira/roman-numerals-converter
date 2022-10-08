@@ -56,11 +56,11 @@ var romanToInt = function(string) {
     };
     return number;
 };
-'MCMXCIV'
+
 "M CM XC IV"
 // 1000 + 900 + 90 + 4
 
-let string = 'XXIIII';
+let string = 'MCMXCIV';
 console.log(
     romanToInt(string)
 );
